@@ -19,6 +19,9 @@ Page({
       })
     })
   },
+  onUnload: function () {
+    console.log('brief page unloaded')
+  },
   // handle the form submission
   bindFormSubmit: function(e) {
     // LOADING
@@ -33,19 +36,20 @@ Page({
       duration: 1500
     })
     // LOCAL STORAGE
-    var nickName = e.detail.value.nickName
-    var email = e.detail.value.email
-    var phone = e.detail.value.phone
-    var company = e.detail.value.company
-    var description = e.detail.value.description
-    var offer = e.detail.value.offer
+    let nickName = e.detail.value.nickName
+    let email = e.detail.value.email
+    let phone = e.detail.value.phone
+    let company = e.detail.value.company
+    let description = e.detail.value.description
+    let offer = e.detail.value.offer
     
     // LEANCLOUD PERMISSIONS
-    var acl = new AV.ACL();
+    let acl = new AV.ACL();
     acl.setPublicReadAccess(true);
     acl.setPublicWriteAccess(true);
 
     setTimeout(function(){
+
     // LEANCLOUD STORAGE
     new Brief({
           name: nickName,
@@ -60,6 +64,8 @@ Page({
     wx.reLaunch({
       url: '/pages/wagon/wagon?brief=1'
     });
+    
+    // WAITING 2 seconds before redirection
     }, 2000);
      
   }  

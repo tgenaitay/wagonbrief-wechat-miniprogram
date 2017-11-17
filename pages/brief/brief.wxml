@@ -2,7 +2,7 @@
 <view class="index">
   <view class="hd">
   <image class="logo" src="/image/red_car_small.png"></image>
-   <view class="desc">NGOs, Startups, Entrepreneurs: tell us how we can help. From UI design to full-stack development, our alumni accept all kind of offers. They can also form a killer team to answer your quick prototyping needs.</view>
+   <view class="desc">Tell us how we can help. From UI design to full-stack development, our alumni accept all kind of offers. They can also form a killer team to answer your quick prototyping needs.</view>
   </view>
 </view>
 
@@ -33,7 +33,7 @@
       <view class="page-section-title">2. What are you looking for?</view>
       <text class="page-section-details">Describe the job, pitch or product; technologies involved...</text>
       <view class="textarea-wrp">
-        <textarea style="height: 10em" placeholder="" name="description" maxlength="-1" />
+        <textarea style="height: 12em" placeholder="" name="description" maxlength="-1" />
       </view>
     </view>
 

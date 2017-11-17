@@ -19,6 +19,15 @@ Page({
     }
     
   },
+  onShow: function () {
+    console.log('wagon page shown')
+  },
+  onHide: function (){
+    console.log('wagon page hidden')
+  },
+  onUnload: function () {
+    console.log('wagon page unloaded')
+  },
   onShareAppMessage: function () {
     return {
       title: 'Le Wagon coding school',
