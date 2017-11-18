@@ -13,6 +13,7 @@ This repo also serves for education purpose. Fork it!
 ├── app.js
 ├── app.json
 ├── app.wxss
+├── project.config.json
 ├── image
 │   ├── about-hover.png
 │   ├── about.png
