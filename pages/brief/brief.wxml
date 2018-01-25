@@ -19,7 +19,7 @@
         <textarea placeholder="name" value="{{userInfo.nickName}}" name="nickName" auto-height />
       </view>
       <view class="textarea-wrp">
-        <textarea auto-focus="true" placeholder="email@email.com" name="email" auto-height />
+        <textarea placeholder="email@email.com" name="email" auto-height />
       </view>
       <view class="textarea-wrp">
         <textarea placeholder="+86 185******" name="phone" auto-height />
