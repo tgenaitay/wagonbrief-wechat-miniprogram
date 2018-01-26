@@ -16,10 +16,10 @@
     <view class="page-section">
       <view class="page-section-title">1. Your contact details</view>
       <view class="textarea-wrp">
-        <textarea placeholder="name" value="{{userInfo.nickName}}" name="nickName" auto-height />
+        <textarea auto-focus="true" placeholder="Your name" name="nickName" auto-height />
       </view>
       <view class="textarea-wrp">
-        <textarea auto-focus="true" placeholder="email@email.com" name="email" auto-height />
+        <textarea placeholder="email@email.com" name="email" auto-height />
       </view>
       <view class="textarea-wrp">
         <textarea placeholder="+86 185******" name="phone" auto-height />

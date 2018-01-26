@@ -6,18 +6,12 @@ var app = getApp()
 Page({
   // build rough data for the page
   data: {
-    userInfo: {},
     loading: false,
   },
   // load data and log success
   onLoad: function () {
     console.log('brief page loaded')
     var that = this
-    app.getUserInfo(function(userInfo){
-      that.setData({
-        userInfo:userInfo
-      })
-    })
   },
   onUnload: function () {
     console.log('brief page unloaded')
