@@ -1,15 +1,18 @@
 // app.js
 // import Leancloud.cn library to store objects on the cloud
 const AV = require('./utils/av-weapp-min.js');
+const config = require('./keys')
 
 // initialize the Leancloud app https://leancloud.cn/docs/weapp.html
-AV.init({ 
- appId: 'HjPUb8O5jCzs8OPIwWraChtq-gzGzoHsz', 
- appKey: 'sH7ADhsS3e2Wo3N2yCv47Rnd', 
+AV.init({
+  appId: config.appId,
+  appKey: config.appKey,
 });
 
-// set an app-level function to grab WeChat user info 
+// set an app-level function to grab WeChat user info
 App({
+  data: {
+  },
   getUserInfo: function (cb) {
     var that = this
     if (this.globalData.userInfo) {

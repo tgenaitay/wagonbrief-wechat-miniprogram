@@ -21,11 +21,13 @@
 
 .h1 {
   color:white;
+  font-family: "Circular Black";
 }
 
 .h3 {
   font-weight:bold;
   font-size: 40rpx; 
+  font-family: "Circular Black";
 }
 
 .techcrunch {
@@ -34,10 +36,10 @@
 }
 
 .wagon-img {
-  width:200px;
-  height:90px;
+  width:224rpx;
+  height:40rpx;
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .cta {
@@ -54,7 +56,7 @@
 
 .btn-gray {
   background-color: white;
-  color:gray;
+  color:black;
   border:1px solid lightgray;
   padding: 30rpx;
   border-radius: 3px;
@@ -62,6 +64,7 @@
   width: 500rpx;
   text-align: center;
   font-weight:bolder;
+  font-family: "Circular Black";
 }
 
 .quotes {

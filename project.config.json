@@ -8,7 +8,7 @@
 		"newFeature": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.4",
+	"libVersion": "2.5.2",
 	"appid": "wx3760536997cbe0cc",
 	"projectname": "Wagonbrief",
 	"condition": {
@@ -34,9 +34,23 @@
 				}
 			]
 		},
-		"miniprogram": {
+		"plugin": {
 			"current": -1,
 			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "Wagon page",
+					"pathName": "pages/wagon/wagon"
+				}
+			]
 		}
 	}
 }

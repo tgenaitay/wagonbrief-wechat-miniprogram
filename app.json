@@ -5,11 +5,11 @@
     "pages/wagon/wagon"
   ],
   "window":{
-    "navigationBarBackgroundColor": "#D03232",
+    "navigationBarBackgroundColor": "#FD1015",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "Le Wagon",
+    "navigationBarTitleText": "Hire tech talents",
     "backgroundColor": "#eeeeee",
-    "selectedColor": "#D03232",
+    "selectedColor": "#FD1015",
     "backgroundTextStyle": "light"
   },
   "tabBar": {
@@ -17,12 +17,12 @@
       "pagePath": "pages/index/index",
       "iconPath": "image/work.png",
       "selectedIconPath": "image/work-hover.png",
-      "text": "Brief"
+      "text": "Send offers"
     }, {
       "pagePath": "pages/wagon/wagon",
       "iconPath": "image/about.png",
       "selectedIconPath": "image/about-hover.png",
-      "text": "About"
+      "text": "Become a partner"
     }]
   }
 }

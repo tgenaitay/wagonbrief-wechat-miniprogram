@@ -11,8 +11,9 @@
   text-align: center;
 }
 .index-logo {
-  width: 86rpx;
-  height: 86rpx;
+  width: 224rpx;
+  height: 40rpx;
+  margin: 30rpx 0px;
 }
 
 .index-wrap {
@@ -37,7 +38,7 @@
 }
 
 .btn {
-  background-color: #D03232;
+  background-color: #FD1015;
   color:white;
   padding: 30rpx;
   border-radius: 3px;

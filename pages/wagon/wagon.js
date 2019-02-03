@@ -2,12 +2,29 @@
 Page({
   // build rough data for the page
   data: {
-    logs: []
+    logs: [],
+    fontFamily: 'Circular Black',
   },
   // load data and log success
   onLoad: function (option) {
 
     console.log('wagon page loaded')
+
+    const self = this
+    wx.loadFontFace({
+      family: this.data.fontFamily,
+      source: 'url("https://lc-HjPUb8O5.cn-n1.lcfile.com/8e81a759dd146bf79f09.ttf")',
+      success(res) {
+        console.log(res.status)
+        self.setData({ loaded: true })
+      },
+      fail: function (res) {
+        console.log(res.status)
+      },
+      complete: function (res) {
+        console.log(res.status)
+      }
+    })
 
     // display toast if form success
     if(option.brief == 1){

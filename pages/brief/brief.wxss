@@ -5,8 +5,8 @@
 }
 
 .logo {
-  width: 86rpx;
-  height: 86rpx;
+  width: 224rpx;
+  height: 40rpx;
 }
 
 .form {
