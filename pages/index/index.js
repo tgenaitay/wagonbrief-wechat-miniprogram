@@ -12,10 +12,9 @@ Page({
     const self = this
     wx.loadFontFace({
       family: this.data.fontFamily,
-      source: 'url("https://lc-HjPUb8O5.cn-n1.lcfile.com/8e81a759dd146bf79f09.ttf")',
+      source: 'url("https://cloud-minapp-12997.cloud.ifanrusercontent.com/1gqUED5JPNpLlpce.ttf")',
       success(res) {
         console.log(res.status)
-        self.setData({ loaded: true })
       },
       fail: function (res) {
         console.log(res.status)
@@ -36,12 +35,6 @@ Page({
   },
   onReady: function () {
     console.log('index page ready')
-  },
-  hitMe: function (e) {
-    this.setData({
-      newvalue: 'Send me another brief'
-    })
-    console.log(this.data.newvalue)
   },
   onShareAppMessage: function () {
     return {

@@ -1,25 +1,17 @@
 // app.js
-// import Leancloud.cn library to store objects on the cloud
-const AV = require('./utils/av-weapp-min.js');
-const config = require('./keys')
-
-// initialize the Leancloud app https://leancloud.cn/docs/weapp.html
-AV.init({
-  appId: config.appId,
-  appKey: config.appKey,
-});
-
-// set an app-level function to grab WeChat user info
 App({
   data: {
   },
   onLaunch: function() {
     console.log("the app is launched")
+    require('./utils/sdk-v1.16.0')
+    let clientId = this.globalData.clientId
+    wx.BaaS.init(clientId)
   },
   onShow: function() {
     console.log("the app is shown")
   },
   globalData:{
-    userInfo:null
+    clientId: '698275f390739a365931'
   }
 });

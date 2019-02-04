@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/brief/brief",
+    "pages/offer/offer",
     "pages/wagon/wagon"
   ],
   "window":{
@@ -9,7 +9,6 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "Hire tech talents",
     "backgroundColor": "#eeeeee",
-    "selectedColor": "#FD1015",
     "backgroundTextStyle": "light"
   },
   "tabBar": {

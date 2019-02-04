@@ -13,7 +13,7 @@ Page({
     const self = this
     wx.loadFontFace({
       family: this.data.fontFamily,
-      source: 'url("https://lc-HjPUb8O5.cn-n1.lcfile.com/8e81a759dd146bf79f09.ttf")',
+      source: 'url("https://cloud-minapp-12997.cloud.ifanrusercontent.com/1gqUED5JPNpLlpce.ttf")',
       success(res) {
         console.log(res.status)
         self.setData({ loaded: true })
@@ -29,9 +29,9 @@ Page({
     // display toast if form success
     if(option.brief == 1){
       wx.showToast({
-      title: 'Received. Thanks!',
+      title: 'Received!',
       icon: 'success',
-      duration: 3000
+      duration: 4000
       });
     }
     

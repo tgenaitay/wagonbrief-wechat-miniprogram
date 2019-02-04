@@ -21,13 +21,11 @@
 
 .h1 {
   color:white;
-  font-family: "Circular Black";
 }
 
 .h3 {
   font-weight:bold;
   font-size: 40rpx; 
-  font-family: "Circular Black";
 }
 
 .techcrunch {

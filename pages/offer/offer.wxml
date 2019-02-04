@@ -1,0 +1,109 @@
+<!--index.wxml-->
+<view class="index">
+  <view class="hd">
+  <image class="logo" src="/image/logo_small.png"></image>
+   <view class="desc">Tell us how we can help. From UI design to full-stack development, our alumni are suitable for all kind of roles. They can also form a killer team to answer your quick prototyping needs.</view>
+  </view>
+</view>
+
+<view class="sep"></view>
+
+<view class="container form">
+<form bindsubmit="bindFormSubmit">
+
+  <view class="page-body">
+
+    <view class="page-section">
+      <view class="page-section-title h3">1. Your contact details</view>
+      <view class="textarea-wrp">
+        <textarea placeholder="* Your name" name="name" auto-height />
+      </view>
+      <view class="textarea-wrp">
+        <textarea placeholder="* email@email.com" name="email" auto-height />
+      </view>
+      <view class="textarea-wrp">
+        <textarea placeholder="* +86 185******" name="phone" auto-height />
+      </view>
+      <view class="textarea-wrp">
+        <textarea placeholder="* company website" name="company" auto-height />
+      </view>              
+    </view>
+
+    <view class="page-section">
+      <view class="page-section-title h3">2. What are you looking for?</view>
+      <checkbox-group name="description">
+        <view class="checkbox">
+          <checkbox value="front-end dev" checked="true"/>Front-end Developer
+        </view>
+        <view class="checkbox">
+          <checkbox value="full-stack dev"/>Full-stack Developer
+        </view>
+        <view class="checkbox">
+          <checkbox value="Wechat dev"/>WeChat Developer
+        </view>        
+        <view class="checkbox">
+          <checkbox value="UI/UX designer"/>UI/UX Designer
+        </view>
+        <view class="checkbox">
+          <checkbox value="Growth"/>Growth
+        </view>
+        <view class="checkbox">
+          <checkbox value="Data"/>Data Scientist
+        </view>        
+        <view class="checkbox">
+          <checkbox value="Product"/>Product Manager
+        </view>  
+        <view class="checkbox">
+          <checkbox value="Sales"/>Sales
+        </view>
+        <view class="checkbox">
+          <checkbox value="Sales"/>Other
+        </view>                                  
+      </checkbox-group>
+    </view>
+
+    <view class="page-section">
+      <view class="page-section-title h3">3. Your offer</view>
+      <checkbox-group name="offer">
+        <view class="checkbox">
+          <checkbox value="full-time" checked="true"/>Full time position
+        </view>
+        <view class="checkbox">
+          <checkbox value="part-time"/>Part time hire
+        </view>
+        <view class="checkbox">
+          <checkbox value="freelance"/>Freelance work
+        </view>
+      </checkbox-group>      
+    </view> 
+
+    <view class="page-section">
+      <view class="page-section-title h3">4. Where</view>
+      <checkbox-group name="cities">
+        <view class="checkbox">
+          <checkbox value="Shanghai" checked="true"/>Shanghai
+        </view>
+        <view class="checkbox">
+          <checkbox value="Chengdu" checked="true"/>Chengdu
+        </view>
+        <view class="checkbox">
+          <checkbox value="Shenzhen" checked="true"/>Shenzhen
+        </view>
+        <view class="checkbox">
+          <checkbox value="China"/>Elsewhere, in China
+        </view>
+        <view class="checkbox">
+          <checkbox value="World"/>Outside the mainland
+        </view>                   
+      </checkbox-group>      
+    </view>
+
+    <view class="btn-area">
+      <button type="primary" form-type="submit" loading="{{loading}}" bindtap="setLoading">Become hiring partner</button>
+    </view>
+
+  </view>
+
+</form>
+</view>
+

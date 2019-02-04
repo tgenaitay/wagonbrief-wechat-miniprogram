@@ -33,7 +33,7 @@ form{
 
 .h1 {
   font-weight:800;
-  font-size: 48rpx; 
+  font-size: 45rpx; 
   font-family: "Circular Black";
 }
 
@@ -62,7 +62,7 @@ form{
 
 .desc {
   margin-top: 20rpx;
-  color: #888888;
+  color: #4A4A4A;
   font-size: 28rpx;
 }
 
@@ -92,7 +92,7 @@ form{
 }
 
 .page-section-title{
-  font-size: 28rpx;
+  font-size: 30rpx;
   color: black;
   margin-bottom: 10rpx;
   padding-left: 30rpx;

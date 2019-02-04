@@ -1,7 +1,7 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.5.2",
 	"appid": "wx3760536997cbe0cc",
-	"projectname": "Wagonbrief",
+	"projectname": "WagonTalents",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -46,9 +46,11 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "Wagon page",
-					"pathName": "pages/wagon/wagon"
+					"pathName": "pages/wagon/wagon",
+					"query": "brief=1",
+					"scene": null
 				}
 			]
 		}

@@ -5,15 +5,15 @@
     <view class="h1">Need to hire a tech talent?</view>
     <view class="index-wrap">
     <view class="h3">We got you covered.</view>
-      <view class="desc">Le Wagon is an intensive, product-driven coding bootcamp operating in China and 32 cities worldwide. We have trained 4000+ creative programmers.</view>
-      <view class="h3">Our alumni welcome your offers.</view>
-      <view class="desc"> They love to build <text class="em">beautiful products</text> using their full-stack web development skills.</view>
+    <view class="desc">Le Wagon is an intensive, product-driven coding bootcamp operating in China and 32 cities worldwide. We have trained 4000+ creative programmers.</view>
+    <view class="h3">Our alumni welcome your offers.</view>
+    <view class="desc"> They love to build <text class="em">beautiful products</text> using their full-stack web development skills.</view>
     </view>
   </view>
 </view>
 <view class="container">
   <view class="cta">
-    <navigator url="/pages/brief/brief" class="btn">{{brief}}</navigator>
+    <navigator url="/pages/offer/offer" class="btn">{{brief}}</navigator>
   </view>
     <text class="cta-details">Full-time positions or freelance work, let us know how they can help. No commission taken.</text>
 </view>
